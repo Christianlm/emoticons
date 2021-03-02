@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilidade con NVDA: da 2018.3 á 2019.1
+* Compatibilidade con NVDA: 2019.3 ou posterior
 * Descargar [versión estable][1]
 * Descargar [versión de desenvolvemento][2]
 
@@ -24,7 +23,7 @@ Cando non esteas seguro dos caracteres para un emoticón en particular, este
 complemento capacítache para selecionalos e insertalos no teu texto como nun
 chat.
 
-Preme NVDA+I, ou dende o menú Ferramentas -> Insertar emoticón, para abrir un diálogo cos emoticóns ou emojis proporcionados.
+Preme NVDA+I, ou dende o menú Ferramentas -> Emoticons > Insertar emoticón, para abrir un diálogo cos emoticóns ou emojis proporcionados.
 
 Este diálogo permíteche escoller un emoticón e ver os emoticóns que che
 interesen:
@@ -40,6 +39,14 @@ interesen:
 
 Cando premas Aceptar, os caracteres para o emoticón escollido copiaranse no
 teu portapapeis, listos para se pegar.
+
+## Insertar símbolo ##
+
+Este diálogo permíteche escoller un dos símbolos dispoñibles no diálogo de
+pronunciación de puntuación/símbolos de NVDA. Podes utilizar a caixa de
+edición de filtro ou as teclas de frechas para seleccionar un elemento da
+lista de símbolos. A continuación, preme OK e o emoji ou símbolo
+seleccionado copiarase ó teu portapapeis, listo para pegarse.
 
 ## Diccionario de emoticóns ##
 
@@ -95,6 +102,8 @@ Diccionario de Emoticóns:
   descripción humana.
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
+* Sen asignar: amosa un diálogo para seleccionar un símbolo de NVDA que
+  queiras copiar.
 * Non asignada: abrir unha mensaxe de modo exploración amosando o símbolo
   onde o cursor de revisión está posicionado, de modo que se poida examinar
   en modo exploración a descrición completa.
@@ -104,6 +113,26 @@ Diccionario de Emoticóns:
 
 Nota: En Windows 10, tamén é posible utilizar o panel de emoji integrado.
 
+## Cambios para 13.0 ##
+
+* Arranxados erros no diálogo Insertar Emoticón.
+* Engadido un diálogo para insertar un símbolo dispoñible na pronunciación
+  de puntuación/símbolos de NVDA.
+
+## Cambios para 12.0 ##
+
+* Require NVDA 2019.3 ou posterior.
+
+## Cambios para 11.0 ##
+
+* Cando o complemento se actualice, os dicionarios gardados na versión
+  anterior do complemento copiaranse automaticamente á nova versión, a menos
+  que prefiras importar os dicionarios gardados no cartafol principal de
+  dicionarios de NVDA.
+* Ao amosar o símbolo sobre o que están posicionados o cursor ou o cursor de
+  revisión, utilízanse as palabras Carácter e Reemprazo para distinguir
+  entre o símbolo en sí e a súa descrición en modo exploración, útil para
+  usuarios de fala.
 
 ## Cambios para 10.0 ##
 
